@@ -1,0 +1,27 @@
+@import './custom_colors';
+
+.notes{
+  margin-left: 0;
+  margin-right:0;
+  margin-top: 0;
+  padding-left: 1.5rem;
+  min-height: calc(100% - 70px);
+}
+.bm-menu{
+  background: white;
+  padding-top: 10px;
+}
+
+.list-item.is-active{
+  :hover{
+    background-color: $custom-grey-light;
+  }
+  
+}
+#notes{
+padding: 0;
+height:calc(100% - 43px);
+.quill{
+  height:100%;
+}
+}
